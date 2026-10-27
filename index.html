@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajo Práctico 1 - PowerShell</title>
+  <style>
+    body { font-family: Arial, sans-serif; color: #222; background: #f5f6f8; margin: 0; line-height: 1.6; }
+    main { max-width: 720px; margin: 50px auto; padding: 28px; background: white; border-radius: 10px; box-shadow: 0 2px 10px #0001; }
+    h1 { margin-bottom: 4px; color: #173a64; }
+    h2 { color: #173a64; margin-top: 26px; }
+    code { background: #eef1f5; padding: 2px 5px; border-radius: 4px; }
+    li { margin-bottom: 10px; }
+    a { color: #1459b3; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Trabajo Práctico 1 - PowerShell</h1>
+  <p><strong>Módulo:</strong> Programación para Seguridad Informática<br>
+  <strong>Docente:</strong> Lic. Carlos Pacheco</p>
+  <h2>¿Qué hace el script?</h2>
+  <p>Preparé un archivo de PowerShell para consultar información básica de mi computadora. Lo ejecuté en Windows 11 Pro y comprobé que los comandos funcionan.</p>
+  <ol>
+    <li><code>$PSVersionTable</code>: muestra la versión de PowerShell.</li>
+    <li><code>Get-ExecutionPolicy</code> y <code>Get-ExecutionPolicy -List</code>: muestran la política de ejecución.</li>
+    <li><code>Get-CimInstance Win32_OperatingSystem</code>: permite consultar la edición y versión de Windows.</li>
+    <li><code>systeminfo</code>: muestra información general de la computadora.</li>
+  </ol>
+  <h2>Resultados principales</h2>
+  <p>En mi equipo obtuve PowerShell 5.1.22621.6133, política RemoteSigned y Windows 11 Pro de 64 bits.</p>
+  <h2>Archivos</h2>
+  <p><a href="./tp1.ps1">Ver o descargar el script tp1.ps1</a></p>
+  <p><a href="https://github.com/Cesark1994/TP1-PowerShell">Ver el repositorio en GitHub</a></p>
+</main>
+</body>
+</html>
