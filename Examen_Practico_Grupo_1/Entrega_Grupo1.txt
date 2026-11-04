@@ -1,0 +1,5 @@
+Examen practico - Grupo 1
+Alumno: Cesar Augusto Rodriguez
+Repositorio: https://github.com/Cesark1994/TP1-PowerShell
+Archivo de codigo: Examen_Practico_Grupo_1/Examen_Grupo1.ps1
+El codigo completo se encuentra en el archivo PowerShell del repositorio.
